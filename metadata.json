@@ -1,0 +1,5 @@
+{
+  "name": "Ace Legal Partners - Cloud Filing System",
+  "description": "A secure, user-friendly cloud filing and storage system for Ace Legal Partners. This application provides a client portal for document uploads and a lawyer dashboard for case and file management, featuring AI-powered document summarization.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ace Legal Partners - Cloud Filing System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'brand-blue': '#0A2342',
+              'brand-secondary': '#2C5E9E',
+              'brand-accent': '#D9A404',
+              'brand-light': '#F8F9FA',
+              'brand-gray': '#6C757D',
+              dark: {
+                bg: '#111827', // Gray 900
+                'bg-secondary': '#1F2937', // Gray 800
+                text: '#E5E7EB', // Gray 200
+                'text-secondary': '#9CA3AF', // Gray 400
+                border: '#374151', // Gray 700
+              },
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-brand-light">
+    <div id="root"></div>
+    <script type="module" src="/index.js"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

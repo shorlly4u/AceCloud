@@ -1,0 +1,18 @@
+{
+  "builds": [
+    {
+      "src": "index.tsx",
+      "use": "@vercel/esbuild",
+      "config": {
+        "outfile": "index.js",
+        "jsxFactory": "React.createElement"
+      }
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
